@@ -17,6 +17,7 @@ set history=100		" keep 100 lines of command line history
 set ruler			" show the cursor position all the time
 set ar				" auto read when file is changed from outside
 set nu				" show line numbers
+set relativenumber  " show relativenumber 
 
 filetype on			" Enable filetype detection
 filetype indent on	" Enable filetype-specific indenting
@@ -121,6 +122,15 @@ endfun
 " set leader to ;
 let mapleader=";"
 let g:mapleader=";"
+
+
+"esc的映射
+imap jj <esc>
+"插入模式下移动
+inoremap <leader>j <down>
+inoremap <leader>k <up>
+inoremap <leader>l <right>
+inoremap <leader>h <left>
 
 " quick alias to leave vim
 nmap <leader>w :x<CR> 

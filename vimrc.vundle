@@ -11,9 +11,10 @@
 Bundle 'Townk/vim-autoclose'
 Bundle 'mileszs/ack.vim'
 Bundle 'thisivan/vim-bufexplorer' 
-""Bundle 'xolox/vim-easytags'
-""Bundle 'majutsushi/tagbar'
-""Bundle 'techlivezheng/tagbar-phpctags'
+Bundle 'xolox/vim-misc'
+Bundle 'xolox/vim-easytags'
+Bundle 'majutsushi/tagbar'
+Bundle 'techlivezheng/tagbar-phpctags'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter.git'
 Bundle 'vim-scripts/YankRing.vim.git'
@@ -31,9 +32,11 @@ Bundle 'Shougo/neocomplcache'
 Bundle 'Shougo/neosnippet'
 Bundle 'vim-scripts/OmniCppComplete'
 "Syntac checking for lots of languages
-"Bundle "scrooloose/syntastic"
+Bundle "scrooloose/syntastic"
 "File fuzzy search
 Bundle "kien/ctrlp.vim"
+"True Sublime Text style multiple selections for Vim
+Bundle "terryma/vim-multiple-cursors"
 
 "--------------------
 " for php
@@ -50,7 +53,7 @@ Bundle 'lucapette/vim-jquery-doc'
 "--------------------
 " for html, haml, sass
 "--------------------
-Bundle 'concise/vim-html5-fix'
+Bundle 'othree/html5.vim'
 Bundle 'tpope/vim-haml'
 
 "--------------------
