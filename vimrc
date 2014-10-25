@@ -426,6 +426,11 @@ let g:php_search_doc_manual_mapping='<Leader>pm'
 let g:jquery_doc_command = 'open'
 let g:jquery_doc_mapping = '<Leader>jm'
 
+" --- emmet
+let g:user_emmet_mode='a'
+let g:user_emmet_leader_key='<C-Z>'
+
+
 " --- ctrlp.vim
 nnoremap <leader>f :CtrlP<CR>
 set wildignore+=*/tmp/*

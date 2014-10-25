@@ -12,7 +12,7 @@ Bundle 'Townk/vim-autoclose'
 Bundle 'mileszs/ack.vim'
 Bundle 'thisivan/vim-bufexplorer' 
 Bundle 'xolox/vim-misc'
-Bundle 'xolox/vim-easytags'
+"Bundle 'xolox/vim-easytags'
 Bundle 'majutsushi/tagbar'
 Bundle 'techlivezheng/tagbar-phpctags'
 Bundle 'scrooloose/nerdtree'
@@ -55,6 +55,7 @@ Bundle 'lucapette/vim-jquery-doc'
 "--------------------
 Bundle 'othree/html5.vim'
 Bundle 'tpope/vim-haml'
+Bundle 'mattn/emmet-vim'
 
 "--------------------
 " for javascript
