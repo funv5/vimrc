@@ -64,6 +64,12 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'itspriddle/vim-jquery'
 "Bundle 'hallettj/jslint.vim'
 
+"--------------------
+" for markdown 
+"--------------------
+"Bundle 'godlygeek/tabular'
+"Bundle 'plasticboy/vim-markdown'
+
 " non github repos
 "Bundle 'git://git.wincent.com/command-t.git'
 

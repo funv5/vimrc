@@ -148,13 +148,17 @@ map <leader>[ :cp<CR>
 
 " --- move around splits
 " move to and maximize the below split 
-map <C-J> <C-W>j<C-W>_
+"map <C-J> <C-W>j<C-W>_
+map <C-J> <C-W>j
 " move to and maximize the above split 
-map <C-K> <C-W>k<C-W>_
+"map <C-K> <C-W>k<C-W>_
+map <C-K> <C-W>k
 " move to and maximize the left split 
-nmap <c-h> <c-w>h<c-w><bar>
+"nmap <c-h> <c-w>h<c-w><bar>
+nmap <c-h> <c-w>h
 " move to and maximize the right split  
-nmap <c-l> <c-w>l<c-w><bar>
+"nmap <c-l> <c-w>l<c-w><bar>
+nmap <c-l> <c-w>l
 set wmw=0			" set the min width of a window to 0 so we can maximize others 
 set wmh=0			" set the min height of a window to 0 so we can maximize others
 
