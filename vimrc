@@ -75,9 +75,11 @@ autocmd FileType yaml set expandtab
 
 " FOLDING
 set foldenable
-set foldmethod=marker
-set foldlevel=0
+set foldmethod=manual
+set foldlevel=1
 set foldcolumn=0
+" set foldclose=all           "设置为自动关闭折叠                           
+nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' :'zo')<CR>  " 用空格键来开关折叠
 
 " status line
 set laststatus=2
@@ -325,7 +327,7 @@ nnoremap <leader>t :TagbarToggle<CR>
 " set focus to TagBar when opening it
 let g:tagbar_autofocus = 1
 " set default width of the Tagbar window
-let g:tagbar_width = 30
+let g:tagbar_width = 20
 " markdown support
 let g:tagbar_type_markdown = {
 			\ 'ctagstype': 'markdown',
@@ -334,6 +336,7 @@ let g:tagbar_type_markdown = {
 " --- NERDTree
 nnoremap <silent> <F3> :NERDTreeToggle<CR>
 nnoremap <leader>n :NERDTreeToggle<CR>
+let g:NERDTreeWinSize = 25
 " Close vim if the only window left open is the NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
